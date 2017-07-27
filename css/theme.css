@@ -1,0 +1,54 @@
+body, html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+.body-borders > div {
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999;
+}
+
+.body-borders .body-borders-shadow {
+    -webkit-box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.1);
+}
+
+.body-borders .top-border, .body-borders .bottom-border {
+    height: 20px;
+    width: 100%;
+}
+
+.body-borders .left-border, .body-borders .right-border {
+    height: 100%;
+    width: 20px;
+}
+
+.top-border {
+    top: 0;
+    left: 0;
+}
+
+.bottom-border {
+    bottom: 0;
+    left: 0;
+}
+
+.left-border {
+    left: 0;
+    top: 0;
+}
+
+.right-border {
+    right: 0;
+    top: 0;
+}
+
+.box-container {
+    
+}
